@@ -24,5 +24,20 @@ namespace Лабараторная
             Console.WriteLine("Требуется ввести возраст собаки: ");
             vozrast = int.Parse(Console.ReadLine());
         }
+        public Sobaka()
+        {
+            this.klichka = "Now name";
+            this.poroda = "";
+            this.vozrast = 0;
+
+        }
+        public Sobaka(string Klichka, string Poroda, float Vozrast)
+        {
+            this.klichka = Klichka;
+            this.poroda = Poroda;
+            this.vozrast = Vozrast;
+        }
     }
+    
 }
+

@@ -10,7 +10,10 @@ namespace Лабараторная
     {
         static void Main(string[] args)
         {
-
+            Sobaka name = new Sobaka();
+            name.write();
+            name.vivod();
+            Console.ReadKey();
         }
     }
 }
